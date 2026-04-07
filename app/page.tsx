@@ -1,4 +1,4 @@
-import { Construction, Mail, Phone, MapPin } from "lucide-react"
+import { Construction, Phone, MapPin } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function UnderConstructionPage() {
@@ -44,24 +44,17 @@ export default function UnderConstructionPage() {
           </h3>
           <div className="flex flex-col gap-3">
             <a 
-              href="mailto:contact@post118.org" 
-              className="flex items-center gap-3 px-4 py-3 rounded-lg bg-card border border-border hover:bg-muted transition-colors"
-            >
-              <Mail className="w-5 h-5 text-secondary" />
-              <span className="text-foreground text-sm md:text-base">contact@post118.org</span>
-            </a>
-            <a 
-              href="tel:+15551234567" 
+              href="tel:+13177454736" 
               className="flex items-center gap-3 px-4 py-3 rounded-lg bg-card border border-border hover:bg-muted transition-colors"
             >
               <Phone className="w-5 h-5 text-secondary" />
-              <span className="text-foreground text-sm md:text-base">(555) 123-4567</span>
+              <span className="text-foreground text-sm md:text-base">(317) 745-4736</span>
             </a>
             <div className="flex items-start gap-3 px-4 py-3 rounded-lg bg-card border border-border">
               <MapPin className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
               <span className="text-foreground text-sm md:text-base">
-                123 Legion Drive<br />
-                Your City, State 12345
+                846 S SR-39<br />
+                Danville, IN 46122
               </span>
             </div>
           </div>
