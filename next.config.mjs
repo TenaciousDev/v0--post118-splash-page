@@ -1,11 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',
+  basePath: '',           // Empty for custom domain
+  assetPrefix: '',        // Empty for custom domain
   images: {
     unoptimized: true,
   },
-}
+  trailingSlash: true,
 
-export default nextConfig
+  // Keep this for now (v0.dev projects often have minor TS issues)
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+};
+
+export default nextConfig;
