@@ -1,4 +1,4 @@
-import { Construction, Phone, MapPin } from "lucide-react"
+import { Phone, MapPin } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function UnderConstructionPage() {
@@ -24,8 +24,29 @@ export default function UnderConstructionPage() {
         {/* Under Construction Card */}
         <Card className="w-full max-w-md border-2 border-border shadow-md">
           <CardContent className="pt-6 pb-8 px-6 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/30 mb-4">
-              <Construction className="w-8 h-8 text-accent-foreground" />
+            {/* Stylized American Flag */}
+            <div className="w-20 h-14 mb-4 rounded overflow-hidden shadow-md flex flex-col">
+              {/* Stars section */}
+              <div className="flex">
+                <div className="w-8 h-7 bg-primary flex flex-wrap items-center justify-center gap-px p-1">
+                  {[...Array(9)].map((_, i) => (
+                    <span key={i} className="text-[6px] text-primary-foreground leading-none">&#9733;</span>
+                  ))}
+                </div>
+                {/* Top stripes next to stars */}
+                <div className="flex-1 flex flex-col">
+                  <div className="flex-1 bg-secondary" />
+                  <div className="flex-1 bg-white" />
+                  <div className="flex-1 bg-secondary" />
+                </div>
+              </div>
+              {/* Bottom stripes */}
+              <div className="flex-1 flex flex-col">
+                <div className="flex-1 bg-white" />
+                <div className="flex-1 bg-secondary" />
+                <div className="flex-1 bg-white" />
+                <div className="flex-1 bg-secondary" />
+              </div>
             </div>
             <h2 className="text-xl md:text-2xl font-semibold text-foreground mb-3">
               Website Under Construction
