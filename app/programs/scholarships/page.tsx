@@ -1,6 +1,6 @@
-import { Download, Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
+import { Download, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function ScholarshipPage() {
   return (
@@ -11,7 +11,7 @@ export default function ScholarshipPage() {
           <div className="flex flex-col items-center gap-6 text-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/v0--post118-scholarship-program-website/images/logo.png"
+              src="/images/logo.png"
               alt="American Legion Hendricks County Post 118 Logo"
               className="h-auto w-full max-w-2xl"
             />
@@ -52,13 +52,13 @@ export default function ScholarshipPage() {
               </p>
               <div className="flex w-full flex-col gap-3">
                 <Button asChild size="lg" className="w-full">
-                  <a href="/v0--post118-scholarship-program-website/Post-118-Scholarship-Guidelines.pdf" download>
+                  <a href="/Post-118-Scholarship-Guidelines.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Scholarship Guidelines
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="w-full">
-                  <a href="/v0--post118-scholarship-program-website/Post-118-Scholarship-Application.pdf" download>
+                  <a href="/Post-118-Scholarship-Application.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Application Form
                   </a>
@@ -119,5 +119,5 @@ export default function ScholarshipPage() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
