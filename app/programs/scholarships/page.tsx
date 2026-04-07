@@ -53,7 +53,7 @@ export default function ScholarshipPage() {
               <div className="flex w-full flex-col gap-3">
                 <Button asChild size="lg" className="w-full">
                   <a
-                    href="/app/programs/scholarships/public/Post-118-Scholarship-Guidelines.pdf"
+                    href="/programs/scholarships/public/Post-118-Scholarship-Guidelines.pdf"
                     download
                   >
                     Scholarship Guidelines
@@ -61,7 +61,7 @@ export default function ScholarshipPage() {
                 </Button>
                 <Button asChild size="lg" variant="outline" className="w-full">
                   <a
-                    href="/app/programs/scholarships/public/Post-118-Scholarship-Application.pdf"
+                    href="/programs/scholarships/public/Post-118-Scholarship-Application.pdf"
                     download
                   >
                     <Download className="mr-2 h-4 w-4" />
