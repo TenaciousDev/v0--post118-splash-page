@@ -12,7 +12,7 @@ export default function UnderConstructionPage() {
         {/* Logo */}
         <div className="mb-8 w-full max-w-md px-4">
           <Image
-            src="/v0--post118-splash-page/images/logo.png"
+            src="/images/logo.png"
             alt="American Legion Post 118"
             width={448}
             height={448}
