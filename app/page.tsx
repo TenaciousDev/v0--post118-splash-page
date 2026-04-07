@@ -86,7 +86,7 @@ export default function UnderConstructionPage() {
       <footer className="py-6 px-4 border-t border-border bg-card">
         <div className="text-center">
           <p className="text-sm text-muted-foreground">
-            American Legion Post 118
+            Hendricks County American Legion | Post 118
           </p>
         </div>
       </footer>
