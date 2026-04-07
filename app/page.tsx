@@ -25,7 +25,7 @@ export default function UnderConstructionPage() {
         <Card className="w-full max-w-md border-2 border-border shadow-md">
           <CardContent className="pt-6 pb-8 px-6 text-center">
             {/* Stylized American Flag */}
-            <div className="w-20 h-14 mb-4 rounded overflow-hidden shadow-md flex flex-col">
+            <div className="w-20 h-14 mb-4 rounded overflow-hidden shadow-md flex flex-col mx-auto">
               {/* Stars section */}
               <div className="flex">
                 <div className="w-8 h-7 bg-primary flex flex-wrap items-center justify-center gap-px p-1">
