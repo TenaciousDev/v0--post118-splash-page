@@ -10,13 +10,13 @@ export default function UnderConstructionPage() {
       
       <div className="flex-1 flex flex-col items-center justify-center px-4 py-12">
         {/* Logo */}
-        <div className="mb-8">
+        <div className="mb-8 w-full max-w-md px-4">
           <Image
             src="/images/logo.png"
             alt="American Legion Post 118"
-            width={280}
-            height={280}
-            className="w-48 h-48 md:w-72 md:h-72 object-contain"
+            width={448}
+            height={448}
+            className="w-full h-auto object-contain"
             priority
           />
         </div>
