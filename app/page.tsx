@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Phone, MapPin } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -8,17 +9,16 @@ export default function UnderConstructionPage() {
       <div className="h-2 bg-secondary" />
       
       <div className="flex-1 flex flex-col items-center justify-center px-4 py-12">
-        {/* Logo / Emblem area */}
-        <div className="mb-8 flex flex-col items-center">
-          <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-primary flex items-center justify-center mb-4 shadow-lg">
-            <span className="text-primary-foreground text-3xl md:text-4xl font-bold">118</span>
-          </div>
-          <h1 className="text-2xl md:text-4xl font-bold text-primary text-center text-balance">
-            American Legion Post 118
-          </h1>
-          <p className="text-muted-foreground mt-2 text-sm md:text-base">
-            Veterans Serving Veterans
-          </p>
+        {/* Logo */}
+        <div className="mb-8">
+          <Image
+            src="/images/logo.png"
+            alt="American Legion Post 118"
+            width={280}
+            height={280}
+            className="w-48 h-48 md:w-72 md:h-72 object-contain"
+            priority
+          />
         </div>
 
         {/* Under Construction Card */}
